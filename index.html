@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Strona dla misia</title>
+
+<style>
+h1{color: red;
+font-family:helvetica;
+text-align:center;
+text-decoration:underline;}
+
+h2{color:red;
+font-family:cursive;
+text-align:center;}
+
+p{color:black;
+font-family:cursive;
+font-size:24px;
+text-align:center;}
+
+.życzenia{color:red}
+
+ul{text-align:center}
+
+.nigdy{text-decoration:underline}
+
+#kochamciekocie{margin-bottom:10px;
+margin-top:40px;
+border:4px dashed red}
+
+#kartonik{margin:auto;
+border: 1px solid rgb(145, 0, 0);}
+
+#silesia{position:relative;
+bottom:1900px;
+left:500px}
+
+
+
+</style>
+</head>
+<body background="data:image/jpeg;base64,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">
+<div id="kartonik">
+<h1><strong> Wszystkiego najlepszego, Aruś!</strong></h1>
+
+<p><strong>Mój kochany misiu!</strong><br>
+Ta amatorska acz bliska memu sercu strona nie odwzoruje tego, co chcę Ci przekazać. Wierzę jednak, że doskonale wiesz, że życzę Ci wszystiego - naprawdę, <em>wszystkiego</em> najwspanialszego.<br>
+Mamy za sobą wiele wspaniałych wspomnień, <strong><em>ale</em></strong> to dopiero początek ich tworzenia!<br> <img id="kochamciekocie" src="wstępny.png" alt="przykładowy obrazek testowy">
+<h2>Przede wszystkim, pragnę życzyć Ci:</h2></p>
+<ul>
+<li><h2 class="życzenia"> szczęścia</h2></li>
+<p><img style="border: 6px ridge red" src="szczescia.png" alt="szczęścia"></p>
+<li><h2 class="życzenia">zdrowia</h2></li>
+<p><img style="border:6px ridge red;" src="zdrowia.png"></p>
+<li><h2 class="życzenia">bogactwa</h2></li>
+<p><img style="border: 6px ridge red" src="wyjścia z bankructwa.png"></p>
+<li><h2 class="życzenia">niezapomnianych przygód</h2></li>
+<p><img style="border:6px ridge red;" src="przygód.png"></p>
+<li><h2 class="życzenia">zdecydowania</h2></li>
+<p><img style="border: 6px ridge red" src="zdecydowania.png"></p>
+
+<li><h2 class="życzenia"> spełnienia marzeń</h2></li>
+<p><img style="border:6px ridge red" src="marzenia.png"></p>
+<li><h2 class="życzenia"> i abyś <span class="nigdy">nigdy</span> się nie zmieniał, bo <em>jesteś super</em></h2></li>
+<p><img style="border:6px ridge red;" src="super.png"></p>
+</ul>
+<img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="hopper1">
+<img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="hopper2">
+<img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="hopper3">
+<img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="hopper4">
+<img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="hopper5">
+<img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="hopper6">
+<img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="hopper7">
+<img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="hopper8">
+<img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="hopper9">
+<img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="hopper10">
+<p>
+<img src="silesia.png" id="silesia">
+
+
+
+<div>
+</body>
+</html>
